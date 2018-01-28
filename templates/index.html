@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
-    <title>Fusion Byte Tutorial</title>
+    <title>Fusion Byte1</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -45,16 +45,25 @@
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
-	<h1>Data Pipeline Project Fusion Byte Example - Shenghui Jia (AndrewID:shenghuj)</h1>
-        <p>This is the Fusion Byte of the Data Pipeline class. This
-        page should explain what question you want to answer and use
-        the visualization tools provided by Google Fusion Table to
-        answer it. </p>
+	<h1>Data Pipeline Project Fusion Byte1</h1>
+        <p>Author: Shenghui Jia (AndrewID:shenghuj) </p>
+        <p>Question: What is the most significant threat that causes children death in US in recent years (2011-2015)</p>
       </div>
 
-
-<iframe width="500" height="300" scrolling="no" frameborder="no"
-	src="https://www.google.com/fusiontables/embedviz?q=select+col16%3E%3E0+from+1ymz3EtGdi4qKGMl5AxEFXtTlgk3tKi8iCpjTzvM&amp;viz=MAP&amp;h=false&amp;lat=38.071424981566125&amp;lng=-85.15232666015623&amp;t=1&amp;z=9&amp;l=col16%3E%3E0&amp;y=3&amp;tmplt=3&amp;hml=TWO_COL_LAT_LNG"></iframe>
+<div>
+<p>database: World Health Organization</p>
+<p>http://apps.who.int/gho/data/view.main.ghe1002015-USA?lang=en</p>
+<iframe width="1000" height="800" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?containerId=googft-gviz-canvas&amp;q=select+col0%2C+SUM(col2)%2C+SUM(col3)%2C+SUM(col4)+from+1UjK9aGefFEGUS4L_pQ9DQX6jePUsLICRdsly_JnY+where+col1+%3E%3D+2011+and+col1+%3C%3D+2015+group+by+col0+order+by+col0+asc+limit+10&amp;viz=GVIZ&amp;t=COLUMN&amp;uiversion=2&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=true&amp;width=1000&amp;height=800"></iframe>
+<p> </p>
+<p> </p>
+<p>
+In this chart powered by Google Fusion Table, we could find that the biggest threat for newborn in US in recent years is the "Congenital anomalies".
+This lead the most biggest number of child death in total.
+Also, "Injuries" is another big threat for children in US. Although it did not cause many newborn death, it hurt children when they are in very-low age (1-month age to 4-year age).  
+Given the serious situation of Injuries on low-age children, providing better Child Care serivce by government or NGO seems needed.
+</p>
+<p> </p>
+</div>
 
       </div> <!-- /page-header -->
     </div> <!-- /container -->
